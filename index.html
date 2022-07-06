@@ -1,0 +1,222 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Currículo</title>
+	<link rel="icon" type="image/icon" href="Icon.ico">
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+
+<body>
+
+	<div class="box">
+
+		<form action="Form.php" method="post">
+
+	  <h1> Faça seu currículo! </h1>
+		<p>Preencha os campos e geraremos seu currículo automaticamente.</p>
+
+		<br>
+
+	  <hr class="sombra">
+
+		<h2>Contato</h2>
+
+		<div class="box2">
+
+      
+			  <label for="email">Email:</label>
+			  <input type="email" name="email" placeholder="abcdef@Xmail.com">  <br>
+
+			  <label for="celular"> Celular:</label>
+		 	  <input type="tel" name="celular" placeholder="(xx) yyyyy-zzzz">  <br>
+
+				<label for="linkedin">LinkedIn:</label>
+				<input type="url" name="linkedin" placeholder="Link do seu LinkedIn">  <br>
+
+				<label for="portfólio">Portfólio:</label>
+				<input type="url" name="portfólio" placeholder="Link do seu portfólio, se necessário">
+
+
+		</div>
+
+		<br>
+
+		<h2>Dados pessoais</h2>
+
+	  <div class="box2">
+
+
+		    <label for="nome">Nome:</label>
+		    <input type="text" name="nome" placeholder="Nome e sobrenome">  <br>
+
+		    <label for="idade">Idade:</label>
+		    <input type="number" name="idade" placeholder="Apenas números">  <br>
+
+		    <label for="nascimento">Data de nascimento:</label>
+		    <input type="date" name="nascimento">  <br>
+
+				<label for="local">Endereço residencial:</label>
+				<input type="text" name="local" placeholder="Bairro - Cidade (UF)">  <br>
+
+	      <label for="nacionalidade">Nacionalidade:</label>
+		    <input type="text" name="nacionalidade" placeholder="Sua nacionalidade">  <br>
+
+		    <label for="status">Status:</label>
+		    <select id="status" name="status">
+			    <option value="Solteiro">Solteiro</option>
+			    <option value="Namorando">Namorando</option>
+			    <option value="Casado">Casado</option>
+		 	    <option value="Divorciado">Divorciado</option>
+			    <option value="Viúvo">Viúvo</option>
+		    </select>  <br>
+
+		    <label for="ocupação">Ocupação:</label>
+		    <input type="text" name="ocupação" placeholder="Estudante ou profissão">  <br>
+
+  	</div> 
+
+  	    <br>
+
+		<h2>Formação</h2>
+
+		<div class="box2">
+
+
+				<label for="fundamental"> Ensíno fundamental:</label>
+			  <select id="fundamental" name="fundamental">
+			    <option value="incompleto">Incompleto</option>
+			    <option value="cursando">Cursando</option>
+			    <option value="completo">Completo</option>
+		      </select>  <br>
+
+                <label for="médio"> Ensíno médio:</label>
+			  <select id="médio" name="médio">
+			    <option value="incompleto">Incompleto</option>
+			    <option value="cursando">Cursando</option>
+			    <option value="completo">Completo</option>
+		      </select>  <br>
+
+				<label for="superior"> Ensíno superior:</label>
+			  <select id="superior" name="superior">
+			    <option value="incompleto">Incompleto</option>
+			    <option value="cursando">Cursando</option>
+			    <option value="completo">Completo</option>
+		      </select>  <br>
+
+				<label for="cursando"> Estou cursando:</label>
+				<input type="text" name="cursando" placeholder="Curso (semestre/período) - Instituição">  <br>
+
+		</div>
+
+		<br>
+
+			<h2>Profissional</h2>
+
+		<div class="box2">
+
+
+			  <center>  
+			  	  <label for="objetivo">Objetivo:</label>
+		          <input type="text" name="objetivo" placeholder="Cargo que deseja">
+		      </center>  <br>
+
+			  <center>
+				 <label for="exp">Se você possui experiência profissional, fale um pouco sobre quais eram suas responsabilidades e rotina.</label>
+			  </center>  
+			  <textarea id="exp" name="exp" placeholder="Aproximadamente 10 linhas."></textarea>
+
+		</div>
+
+		<br>
+
+		<h2>Línguas</h2>   
+
+		<div class="box2">
+
+        <center>
+			   <p class="texto">Sendo pelo menos intermediário o seu conhecimento, selecione apenas uma.</p>
+        </center>
+
+			  <div class="box3">
+
+			  	 <input class="radio" type="radio" name="lingua" value="inglês">  
+	             <label for="inglês">Inglês</label>  <br>
+
+	             <input class="radio" type="radio"  name="lingua" value="espanhol">
+	             <label for="espanhol">Espanhol</label>  <br>
+
+	             <input class="radio" type="radio"  name="lingua" value="mandarim">
+	             <label for="mandarim">Mandarim</label>  <br>
+
+	             <input class="radio" type="radio"  name="lingua" value="francês">
+	             <label for="francês">Francês</label>  <br>
+	          </div>
+
+	          <div class="box4">
+
+	             <input class="radio" type="radio"  name="lingua" value="japonês">
+	             <label for="japonês">Japonês</label>  <br>
+
+	             <input class="radio" type="radio"  name="lingua" value="alemão">
+	             <label for="alemão">Alemão</label>  <br>
+
+	             <input class="radio" type="radio"  name="lingua" value="italiano">
+	             <label for="italiano">Italiano</label>  <br>
+
+	             <input class="radio" type="radio" name="lingua" value="libras">
+	             <label for="outra">LIBRAS</label>  <br>
+	          </div>
+
+		</div>
+
+		<br>
+
+		<h2>Conhecimentos gerais</h2>
+
+		<div class="box2">
+
+
+				<center>
+			   <p class="texto">Escreva até 3 ferramentas que você tenha conhecimento (ex: Excel, Photoshop, JavaScript...).</p>
+
+				 <input class="curto" type="text" name="con1" placeholder="Conhecimento 1">
+				 <input class="curto" type="text" name="con2" placeholder="Conhecimento 2">
+				 <input class="curto" type="text" name="con3" placeholder="Conhecimento 3">
+			  </center>
+
+
+		</div>
+
+		<br>
+
+		<h2>Soft skills</h2>
+
+		<div class="box2">
+
+				<p class="texto">Preencha os campos com suas principais soft skills (características pessoais).</p>
+
+				<input class="curto" type="text" name="sk1" placeholder="Característica 1">
+				<input class="curto" type="text" name="sk2" placeholder="Característica 2">
+				<input class="curto" type="text" name="sk3" placeholder="Característica 3">
+				<input class="curto" type="text" name="sk4" placeholder="Característica 4">
+				<input class="curto" type="text" name="sk5" placeholder="Característica 5">
+
+		</div>
+
+		<br>
+
+		<hr class="sombra">
+
+		<center>
+			<h3>Ao terminar de preencher o formulário, clique no botão para gerar o currículo.</h3>
+
+			<input class="boto" type="submit" value="Enviar">
+		</center>
+
+		</form>
+
+  </div>
+</body>
+
+</html>
